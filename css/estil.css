@@ -1,0 +1,80 @@
+body{
+    font-family: 'Oswald';
+    max-width: 1280px;
+    min-width:768px;
+}
+
+
+header{
+    background-color: #875EFF;
+    width: 100vw;
+    height:97px;
+    position:relative;
+    margin-bottom: 22px;
+}
+
+.logo{
+    position:absolute;
+    top:25px;
+    left:22px;
+}
+
+main{
+   
+    margin:auto 10px;
+    
+    
+}
+
+h1{
+    font-size: 64px;
+font-style: normal;
+font-weight: 700;
+line-height: normal; 
+}
+
+.galeria{
+    width:97vw;
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+    flex-wrap: wrap;
+    
+    
+}
+
+.card{
+    width: 400px;
+    display:flex;
+    flex-direction: column;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: calc(100%/3 - 14px);
+    
+    
+}
+
+
+.subtit{
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: normal; 
+margin-top: 30px;
+margin-bottom: 10px;
+}
+
+p{
+
+    font-family: 'Dosis';
+    font-size: 32px;
+font-style: normal;
+font-weight: 300;
+line-height: normal; 
+}
+
+
+
+  .card img {
+    width: 100%;
+  }

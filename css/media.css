@@ -1,0 +1,61 @@
+@media (max-width:368px){
+    body{
+        width:100vw;
+        
+    }
+
+    header{
+        width: 100%;
+    }
+    
+    .card:first-child{
+        width: 728px;
+        flex-shrink: 1;
+        flex-grow: 0;
+        flex-basis: calc(100%);    
+        
+    }
+    
+
+}
+
+
+@media (min-width:369px) and (max-width:768px){
+body{
+    width:100vw;
+    margin: 0 auto;
+}
+    header{
+    width:100%;
+}
+
+.card:first-child{
+    width: 728px;
+    flex-shrink: 1;
+    flex-grow: 0;
+    flex-basis: calc(100%);    
+    
+}
+
+
+.card{
+    width: 354px;
+    flex-shrink: 1;
+    flex-grow: 1;
+       
+}
+
+}
+
+@media (min-width:768px) and (max-width:1280px){
+body{
+    width: 100vw;
+}
+
+    header{
+        width: 100%;
+    }
+
+
+}
+
